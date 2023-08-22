@@ -1,0 +1,93 @@
+@import "./base.css";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;800&display=swap");
+
+#app {
+  margin: 0;
+  padding: 0;
+
+  font-weight: normal;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #f2eae1 !important;
+  height: 100vh;
+}
+
+.heading-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-sidebar {
+  width: 23px;
+  height: 0px;
+  border: 4px solid #f8d442;
+  transform: rotate(90deg);
+}
+
+.header-title {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.profile {
+  margin: 35px 112.5px;
+}
+
+.name-user {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 21px;
+  color: black;
+  margin: 0 112.5px;
+}
+
+.type-user {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #feaf00;
+  margin: 10px 137.5px;
+}
+
+.sidebar-menu {
+  padding: 80px 65.5px;
+}
+
+.menu-list {
+  width: 193px;
+  height: 41px;
+  background: #feaf00;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-sign-out {
+  background: none;
+  border: none;
+}
+
+.sign-out {
+  padding: 60px 108.6px;
+}
+
+.row > * {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
